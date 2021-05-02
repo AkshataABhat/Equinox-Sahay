@@ -1,0 +1,44 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(243, 243, 243);
+  }
+  #container {
+    background:url(http://www.dlocc.com/articles/wp-content/uploads/2010/01/Mozilla-Background.png) no-repeat top left;
+    }
+   
+   
+   
+   h1 strong{
+    color:#A80C1E;
+    display:block;
+    font-size:85px;
+    font-weight:normal;
+    font-family: Georgia, serif;
+    letter-spacing:-3.5px;
+    line-height:1em;
+    }
+  
+  .login > button {
+    width: 300px;
+    background-color: #c53f3f;
+    color: #eff2f5;
+    font-weight: 800;
+    right: -10px;
+  }
+  
+  .login > button:hover {
+    background-color: white;
+    color: #eb7486;
+  }
+  
+  .login > div > img {
+    object-fit: contain;
+    height: 150px;
+  }
+  
+  .login > div {
+    display: flex;
+    flex-direction: column;
+  }
